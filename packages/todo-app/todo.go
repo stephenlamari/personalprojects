@@ -93,8 +93,8 @@ func (t *Todos) Print() {
 			{Align: simpletable.AlignCenter, Text: "#"},
 			{Align: simpletable.AlignCenter, Text: "Task"},
 			{Align: simpletable.AlignCenter, Text: "Done?"},
-			{Align: simpletable.AlignRight, Text: "CreatedAt"},
-			{Align: simpletable.AlignRight, Text: "CompletedAt"},
+			{Align: simpletable.AlignCenter, Text: "CreatedAt"},
+			{Align: simpletable.AlignCenter, Text: "CompletedAt"},
 		},
 	}
 

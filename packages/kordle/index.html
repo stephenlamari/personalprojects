@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="dist/kioskboard-2.0.0.min.css" />
+    <script src="dist/kioskboard-2.0.0.min.js"></script>
+  </head>
+
+  <body>
+    <h1 class="mainHeader" id="kordle">
+      <span id="ktitle">K</span><span id="otitle">O</span
+      ><span id="rtitle">R</span><span id="dtitle">D</span
+      ><span id="ltitle">L</span><span id="etitle">E</span>
+    </h1>
+
+    <h1 class="mainHeader" id="wrong">Wrong Word!</h1>
+    <h1 class="mainHeader" id="fullWord">Not a Full Word!</h1>
+    <h1 class="mainHeader" id="youWin">You Win!</h1>
+    <h1 class="mainHeader" id="youLose">Better Luck Tomorrow!</h1>
+
+    <p id="Yesterday">Yesterday's word was: <span id="yword"></span></p>
+
+    <table class="">
+      <tr id="guessOne">
+        <td id="guess11">
+          <p class="use-keyboard-input" id="guess1char1"></p>
+        </td>
+        <td id="guess12">
+          <p class="use-keyboard-input" id="guess1char2"></p>
+        </td>
+        <td id="guess13">
+          <p class="use-keyboard-input" id="guess1char3"></p>
+        </td>
+        <td id="guess14">
+          <p class="use-keyboard-input" id="guess1char4"></p>
+        </td>
+        <td id="guess15">
+          <p class="use-keyboard-input" id="guess1char5"></p>
+        </td>
+      </tr>
+      <tr>
+        <td id="guess21">
+          <p class="guesses use-keyboard-input" id="guess2char1"></p>
+        </td>
+        <td id="guess22">
+          <p class="guesses use-keyboard-input" id="guess2char2"></p>
+        </td>
+        <td id="guess23">
+          <p class="guesses use-keyboard-input" id="guess2char3"></p>
+        </td>
+        <td id="guess24">
+          <p class="guesses use-keyboard-input" id="guess2char4"></p>
+        </td>
+        <td id="guess25">
+          <p class="guesses use-keyboard-input" id="guess2char5"></p>
+        </td>
+      </tr>
+      <tr>
+        <td id="guess31">
+          <p class="guesses use-keyboard-input" id="guess3char1"></p>
+        </td>
+        <td id="guess32">
+          <p class="guesses use-keyboard-input" id="guess3char2"></p>
+        </td>
+        <td id="guess33">
+          <p class="guesses use-keyboard-input" id="guess3char3"></p>
+        </td>
+        <td id="guess34">
+          <p class="guesses use-keyboard-input" id="guess3char4"></p>
+        </td>
+        <td id="guess35">
+          <p class="guesses use-keyboard-input" id="guess3char5"></p>
+        </td>
+      </tr>
+      <tr>
+        <td id="guess41">
+          <p class="guesses use-keyboard-input" id="guess4char1"></p>
+        </td>
+        <td id="guess42">
+          <p class="guesses use-keyboard-input" id="guess4char2"></p>
+        </td>
+        <td id="guess43">
+          <p class="guesses use-keyboard-input" id="guess4char3"></p>
+        </td>
+        <td id="guess44">
+          <p class="guesses use-keyboard-input" id="guess4char4"></p>
+        </td>
+        <td id="guess45">
+          <p class="guesses use-keyboard-input" id="guess4char5"></p>
+        </td>
+      </tr>
+      <tr>
+        <td id="guess51">
+          <p class="guesses use-keyboard-input" id="guess5char1"></p>
+        </td>
+        <td id="guess52">
+          <p class="guesses use-keyboard-input" id="guess5char2"></p>
+        </td>
+        <td id="guess53">
+          <p class="guesses use-keyboard-input" id="guess5char3"></p>
+        </td>
+        <td id="guess54">
+          <p class="guesses use-keyboard-input" id="guess5char4"></p>
+        </td>
+        <td id="guess55">
+          <p class="guesses use-keyboard-input" id="guess5char5"></p>
+        </td>
+      </tr>
+      <tr>
+        <td id="guess61">
+          <p class="guesses use-keyboard-input" id="guess6char1"></p>
+        </td>
+        <td id="guess62">
+          <p class="guesses use-keyboard-input" id="guess6char2"></p>
+        </td>
+        <td id="guess63">
+          <p class="guesses use-keyboard-input" id="guess6char3"></p>
+        </td>
+        <td id="guess64">
+          <p class="guesses use-keyboard-input" id="guess6char4"></p>
+        </td>
+        <td id="guess65">
+          <p class="guesses use-keyboard-input" id="guess6char5"></p>
+        </td>
+      </tr>
+    </table>
+    <button id="shareButton">Share!</button>
+    <script src="script.js"></script>
+  </body>
+</html>
